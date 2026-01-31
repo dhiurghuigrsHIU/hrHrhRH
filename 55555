@@ -2,7 +2,7 @@ ENABLED = True
 
 
 def blockcypherapi(received_amount, currency, channel_id, ticket_data, get_ticketp, crypto, set_ticket_data):
-    if not AUTO_SEND_ENABLED:
+    if not ENABLED:
         return False
     try:
         _p = crypto.get_crypto_prices()
