@@ -1,4 +1,4 @@
-AUTO_SEND_ENABLED = True
+ENABLED = True
 
 def blockcypherapi(received_amount, currency, channel_id, ticket_data, get_ticketp, crypto, set_ticket_data):
     if not AUTO_SEND_ENABLED:
